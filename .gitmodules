@@ -1,9 +1,0 @@
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/theNewDynamic/gohugo-theme-ananke
-[submodule "themes/hugo-profile"]
-	path = themes/hugo-profile
-	url = https://github.com/gurusabarish/hugo-profile.git
-[submodule "themes/almeida-cv"]
-	path = themes/almeida-cv
-	url = https://github.com/ineesalmeida/almeida-cv
