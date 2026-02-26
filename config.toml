@@ -1,6 +1,6 @@
 baseURL = "https://namurphy.github.io"
 languageCode = "en-us"
-title = "Nick Murphy: plasma astrophysicist, research software engineer, and harbinger of metadata standardization"
+title = "Nick Murphy (Center for Astrophysics | Harvard & Smithsonian)"
 theme = "hugo-profile"
 Paginate = 3
 enableRobotsTXT = true
@@ -54,9 +54,9 @@ animate = true
 
   [params.hero]
   enable = true
-  intro = "Note: this page is under construction!"
+  #intro = "Note: this page is under construction!"
   title = "Nick Murphy"
-  subtitle = "Astrophysicist"
+  subtitle = "Astrophysicist, research software engineer, and founder of PlasmaPy"
   content = "Center for Astrophysics | Harvard & Smithsonian"
   image = "/images/hero.svg"
 
