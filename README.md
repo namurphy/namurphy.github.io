@@ -1,3 +1,13 @@
-# Source code for Nick Murphy's webpage
+# Source code for Nick Murphy's homepage
 
-This page points to https://namurphy.github.io.
+The generated webpage can be viewed at: https://namurphy.github.io
+
+## Instructions
+
+This website is built using [Hugo](https://gohugo.io/).
+
+To build this website, run:
+
+```bash
+hugo build
+```
