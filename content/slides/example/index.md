@@ -1,9 +1,9 @@
 ---
-title: "Example Talk: Recent Work"
+title: 'Example Talk: Recent Work'
 date: 2024-01-01
 # `type: slides` is inferred from folder, but can be set explicitly:
 type: slides
-summary: "A quick tour of recent research highlights: multimodal LLMs, efficient training, and responsible AI."
+summary: 'A quick tour of recent research highlights: multimodal LLMs, efficient training, and responsible AI.'
 slides:
   theme: black  # Options: black, white, league, beige, sky, night, serif, simple, solarized
   highlight_style: dracula  # Code syntax highlighting theme
@@ -19,35 +19,36 @@ slides:
   branding:
     # LOGO: Display your organization's logo
     logo:
-      filename: "slides-logo.svg"   # File in assets/media/ folder (SVG recommended for any theme)
-      position: "top-right"         # Options: top-left, top-right, bottom-left, bottom-right
-      width: "50px"                 # Logo width (height scales automatically)
+      filename: slides-logo.svg     # File in assets/media/ folder (SVG recommended for any theme)
+      position: top-right           # Options: top-left, top-right, bottom-left, bottom-right
+      width: 50px                   # Logo width (height scales automatically)
       # margin: "20px"              # Distance from edge (optional, default: 20px)
-    
+
     # TITLE OVERLAY: Show presentation title on every slide
     title:
       show: true                    # Set to false to hide
-      position: "bottom-left"       # Options: top-left, top-right, bottom-left, bottom-right
+      position: bottom-left         # Options: top-left, top-right, bottom-left, bottom-right
       # text: "Short Title"         # Optional: override the page title with custom text
       # margin: "20px"              # Distance from edge (optional)
-    
+
     # AUTHOR OVERLAY: Show author name on every slide
     # author:
     #   show: true
     #   position: "bottom-right"
-    
+
     # FOOTER TEXT: Display copyright, conference name, etc.
     footer:
-      text: "© 2026 HugoBlox"       # Supports Markdown (e.g., links)
-      position: "bottom-center"     # Options: top-left, top-right, bottom-left, bottom-right, bottom-center
+      text: © 2026 HugoBlox         # Supports Markdown (e.g., links)
+      position: bottom-center       # Options: top-left, top-right, bottom-left, bottom-right, bottom-center
 ---
-
 
 <!-- no-branding -->
+
 # Example Talk
+
 ### Dr. Alex Johnson · Meta AI
 
----
+______________________________________________________________________
 
 ## Research Overview
 
@@ -55,7 +56,7 @@ slides:
 - Efficient training
 - Responsible AI
 
----
+______________________________________________________________________
 
 ## Code & Math
 
@@ -68,7 +69,7 @@ $$
 E = mc^2
 $$
 
----
+______________________________________________________________________
 
 ## Dual Column Layout
 
@@ -79,7 +80,7 @@ $$
 ### Left Column
 
 - Point A
-- Point B  
+- Point B
 - Point C
 
 </div>
@@ -96,7 +97,7 @@ $$
 
 </div>
 
----
+______________________________________________________________________
 
 <!-- Alternative: Asymmetric columns -->
 
@@ -119,14 +120,14 @@ def example():
 
 ### Sidebar (1/3 width)
 
-> **Note**  
+> **Note**
 > Key points in smaller column
 
 </div>
 
 </div>
 
----
+______________________________________________________________________
 
 ## Image + Text Layout
 
@@ -152,7 +153,7 @@ def example():
 
 </div>
 
----
+______________________________________________________________________
 
 ## Speaker Notes
 
@@ -161,13 +162,14 @@ Press **S** to open presenter view with notes!
 This slide has hidden speaker notes below.
 
 Note:
+
 - This is a **speaker note** (only visible in presenter view)
 - Press `S` key to open presenter console
 - Perfect for remembering key talking points
 - Can include reminders, timing, references
 - Supports **Markdown** formatting too!
 
----
+______________________________________________________________________
 
 ## Progressive Reveals
 
@@ -184,7 +186,7 @@ Content appears step-by-step:
 Note:
 Use fragments to control pacing and maintain audience attention. Each fragment appears on click.
 
----
+______________________________________________________________________
 
 ## Diagrams with Mermaid
 
@@ -204,14 +206,14 @@ Perfect for: Workflows, architectures, processes
 Note:
 Mermaid diagrams are created from simple text. They're version-controllable and edit anywhere!
 
----
+______________________________________________________________________
 
 ## Research Results
 
-| Model | Accuracy | Speed | Memory |
-|-------|----------|-------|--------|
-| Baseline | 87.3% | 1.0x | 2GB |
-| Ours (v1) | 92.1% | 1.5x | 1.8GB |
+| Model         | Accuracy  | Speed    | Memory    |
+| ------------- | --------- | -------- | --------- |
+| Baseline      | 87.3%     | 1.0x     | 2GB       |
+| Ours (v1)     | 92.1%     | 1.5x     | 1.8GB     |
 | **Ours (v2)** | **95.8%** | **2.3x** | **1.2GB** |
 
 > **Key Finding:** 8.5% improvement over baseline with 40% memory reduction
@@ -219,7 +221,7 @@ Mermaid diagrams are created from simple text. They're version-controllable and 
 Note:
 Tables are perfect for comparative results. Markdown tables are simple and version-control friendly.
 
----
+______________________________________________________________________
 
 {{< slide background-color="#1e3a8a" >}}
 
@@ -228,6 +230,7 @@ Tables are perfect for comparative results. Markdown tables are simple and versi
 This slide has a **blue background**!
 
 You can customize:
+
 - Background colors
 - Background images
 - Gradients
@@ -235,7 +238,7 @@ You can customize:
 
 Use `{{</* slide background-color="#hex" */>}}`
 
----
+______________________________________________________________________
 
 ## Vertical Navigation
 
@@ -246,7 +249,7 @@ Press the **Down Arrow** to see substeps.
 Note:
 This demonstrates Reveal.js's vertical slide feature. Great for optional details or deep dives.
 
----
+______________________________________________________________________
 
 {{< slide id="substep-1" >}}
 
@@ -256,7 +259,7 @@ This is additional content in a vertical stack.
 
 Navigate down for more, or right to skip to next topic →
 
----
+______________________________________________________________________
 
 {{< slide id="substep-2" >}}
 
@@ -266,21 +269,19 @@ Even more detailed information.
 
 Press **Up Arrow** to go back, or **Right Arrow** to continue.
 
----
+______________________________________________________________________
 
 ## Citations & Quotes
 
 > "The best way to predict the future is to invent it."
-> 
+>
 > — Alan Kay
 
 Or reference research:
 
 > Recent work by Smith et al. (2024) demonstrates that Markdown-based slides improve reproducibility by 78% compared to proprietary formats[^1].
 
-[^1]: Smith, J. et al. (2024). *Open Science Presentations*. Nature Methods.
-
----
+______________________________________________________________________
 
 ## Media: YouTube Videos
 
@@ -289,7 +290,7 @@ Or reference research:
 Note:
 Embed YouTube videos with just the video ID. Perfect for demos, tutorials, or interviews.
 
----
+______________________________________________________________________
 
 ## Media: All Options
 
@@ -305,27 +306,30 @@ Perfect for demos, interviews, tutorials, or podcasts!
 Note:
 All media types work seamlessly in slides. Just use the appropriate shortcode.
 
----
+______________________________________________________________________
 
 ## Interactive Elements
 
 Try these keyboard shortcuts:
 
 - `→` `←` : Navigate slides
-- `↓` `↑` : Vertical navigation  
+- `↓` `↑` : Vertical navigation
 - `S` : Speaker notes
 - `F` : Fullscreen
 - `O` : Overview mode
 - `/` : Search
 - `ESC` : Exit modes
 
----
+______________________________________________________________________
+
 <!-- hide -->
+
 ## Hidden Slide Demo (Inline Comment)
 
 This slide is hidden using the `<!-- hide -->` comment method.
 
 Perfect for:
+
 - Speaker-only content
 - Backup slides
 - Work-in-progress content
@@ -333,7 +337,7 @@ Perfect for:
 Note:
 This slide won't appear in the presentation but remains in source for reference.
 
----
+______________________________________________________________________
 
 ## Thanks
 
@@ -349,7 +353,7 @@ This slide won't appear in the presentation but remains in source for reference.
 Note:
 Thank you for your attention! Feel free to reach out with questions or contributions.
 
----
+______________________________________________________________________
 
 ## 🎨 Branding Your Slides
 
@@ -357,22 +361,22 @@ Add your identity to every slide with simple configuration!
 
 **What you can add:**
 
-| Element | Position Options |
-|---------|-----------------|
-| Logo | top-left, top-right, bottom-left, bottom-right |
-| Title | Same as above |
-| Author | Same as above |
-| Footer Text | Same + bottom-center |
+| Element     | Position Options                               |
+| ----------- | ---------------------------------------------- |
+| Logo        | top-left, top-right, bottom-left, bottom-right |
+| Title       | Same as above                                  |
+| Author      | Same as above                                  |
+| Footer Text | Same + bottom-center                           |
 
 Edit the `branding:` section in your slide's front matter (top of file).
 
----
+______________________________________________________________________
 
 ## 📁 Adding Your Logo
 
 1. Place your logo in `assets/media/` folder
-2. Use SVG format for best results (auto-adapts to any theme!)
-3. Add to front matter:
+1. Use SVG format for best results (auto-adapts to any theme!)
+1. Add to front matter:
 
 ```yaml
 branding:
@@ -384,7 +388,7 @@ branding:
 
 **Tip:** SVGs with `fill="currentColor"` automatically match theme colors!
 
----
+______________________________________________________________________
 
 ## 📝 Title & Author Overlays
 
@@ -396,7 +400,7 @@ branding:
     show: true
     position: "bottom-left"
     text: "Short Title"  # Optional: override long page title
-  
+
   author:
     show: true
     position: "bottom-right"
@@ -404,7 +408,7 @@ branding:
 
 Author is auto-detected from page front matter (`author:` or `authors:`).
 
----
+______________________________________________________________________
 
 ## 📄 Footer Text
 
@@ -419,7 +423,7 @@ branding:
 
 **Tip:** Supports Markdown! Use `[Link](url)` for clickable links.
 
----
+______________________________________________________________________
 
 <!-- no-branding -->
 
@@ -438,7 +442,7 @@ Content here...
 
 ☝️ **This slide uses `<!-- no-branding -->`** — notice no logo or overlays!
 
----
+______________________________________________________________________
 
 <!-- no-header -->
 
@@ -458,28 +462,29 @@ Or just the footer (author + footer text):
 
 ☝️ **This slide uses `<!-- no-header -->`** — footer still visible below!
 
----
+______________________________________________________________________
 
 <!-- no-footer -->
 
 ## ✅ Quick Reference
 
-| Comment | Hides |
-|---------|-------|
+| Comment                | Hides                                    |
+| ---------------------- | ---------------------------------------- |
 | `<!-- no-branding -->` | Everything (logo, title, author, footer) |
-| `<!-- no-header -->` | Logo + Title overlay |
-| `<!-- no-footer -->` | Author + Footer text |
+| `<!-- no-header -->`   | Logo + Title overlay                     |
+| `<!-- no-footer -->`   | Author + Footer text                     |
 
 ☝️ **This slide uses `<!-- no-footer -->`** — logo still visible above!
 
----
+______________________________________________________________________
 
 ## 🚀 Get Started
 
 1. Copy this example's front matter as a starting point
-2. Replace logo with yours in `assets/media/`
-3. Customize positions and text
-4. Use `<!-- no-branding -->` for special slides
+1. Replace logo with yours in `assets/media/`
+1. Customize positions and text
+1. Use `<!-- no-branding -->` for special slides
 
 **Pro tip:** Set site-wide defaults in `config/_default/params.yaml` under `slides.branding`!
 
+[^1]: Smith, J. et al. (2024). *Open Science Presentations*. Nature Methods.

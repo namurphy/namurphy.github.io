@@ -1,5 +1,5 @@
 ---
-title: 'An example conference paper'
+title: An example conference paper
 
 # Authors
 # If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
@@ -10,8 +10,8 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - Equal contribution
+  - Equal contribution
 
 date: '2013-07-01T00:00:00Z'
 
@@ -21,7 +21,7 @@ publishDate: '2017-01-01T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: [paper-conference]
 
 # Publication name and optional abbreviated publication name.
 publication: In *HugoBlox Kit Conference*
@@ -46,7 +46,7 @@ hugoblox:
 # Custom links
 links:
   - type: pdf
-    url: ""
+    url: ''
   - type: code
     url: https://github.com/HugoBlox/kit
   - type: dataset
@@ -78,7 +78,7 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: ""
+slides: ''
 ---
 
 > [!NOTE]

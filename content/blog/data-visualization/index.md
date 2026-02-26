@@ -9,20 +9,20 @@ tags:
   - Hugo Blox
   - Markdown
 cover:
-  image: "https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2560"
+  image: https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2560
   position:
     x: 50
     y: 40
   overlay:
     enabled: true
-    type: "gradient"
+    type: gradient
     opacity: 0.4
-    gradient: "bottom"
+    gradient: bottom
   fade:
     enabled: true
-    height: "80px"
+    height: 80px
   icon:
-    name: "✨"
+    name: ✨
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
@@ -77,13 +77,15 @@ Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
 
 An example **flowchart**:
 
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
+````
+```mermaid
+graph TD
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+```
+````
 
 renders as
 
@@ -97,17 +99,19 @@ C -->|Two| E[Result 2]
 
 An example **sequence diagram**:
 
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
+````
+```mermaid
+sequenceDiagram
+Alice->>John: Hello John, how are you?
+loop Healthcheck
+    John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
+```
+````
 
 renders as
 
@@ -125,22 +129,24 @@ Bob-->>John: Jolly good!
 
 An example **class diagram**:
 
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    Class03 *-- Class04
-    Class05 o-- Class06
-    Class07 .. Class08
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    Class08 <--> C2: Cool label
-    ```
+````
+```mermaid
+classDiagram
+Class01 <|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 <--> C2: Cool label
+```
+````
 
 renders as
 
@@ -163,15 +169,17 @@ Class08 <--> C2: Cool label
 
 An example **state diagram**:
 
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
+````
+```mermaid
+stateDiagram
+[*] --> Still
+Still --> [*]
+Still --> Moving
+Moving --> Still
+Moving --> Crash
+Crash --> [*]
+```
+````
 
 renders as
 
@@ -205,7 +213,7 @@ Add engaging call-to-action buttons to your data visualization posts:
 
 {{< button url="/" >}}Contact Us{{< /button >}}
 
-&nbsp;
+&#160;
 
 {{< button url="https://plotly.com/python/" new_tab="true" style="secondary" >}}Learn Plotly{{< /button >}}
 
@@ -219,11 +227,11 @@ Add engaging call-to-action buttons to your data visualization posts:
 
 {{< button url="#" style="primary" size="lg" align="center" icon="chart-bar" >}}View Dashboard{{< /button >}}
 
-&nbsp;
+&#160;
 
 {{< button url="/data/results.csv" style="outline" icon="document-arrow-down" >}}Download Data{{< /button >}}
 
-&nbsp;
+&#160;
 
 {{< button url="https://github.com/HugoBlox" new_tab="true" style="ghost" icon="arrow-top-right-on-square" icon_position="right" >}}View Source Code{{< /button >}}
 
@@ -239,7 +247,7 @@ Add engaging call-to-action buttons to your data visualization posts:
 
 {{< button url="https://jupyter.org/" new_tab="true" style="secondary" rounded="full" align="center" >}}Try Jupyter{{< /button >}}
 
-&nbsp;
+&#160;
 
 {{< button url="https://colab.research.google.com/" new_tab="true" style="primary" rounded="full" align="center" icon="rocket-launch" >}}Open in Colab{{< /button >}}
 

@@ -12,9 +12,9 @@ tags:
 cover:
   # image: cover.jpg  # Auto-detected from cover image in this folder
   icon:
-    name: "📔"
+    name: 📔
 image:
-  caption: "Image credit: [HugoBlox](https://hugoblox.com)"
+  caption: 'Image credit: [HugoBlox](https://hugoblox.com)'
   focal_point: Center
   placement: 1
 content_meta:
@@ -42,21 +42,22 @@ Hugo Blox changes that. With the `{{</* notebook */>}}` shortcode, you can rende
 Below is a live example of a notebook rendered right here in this post. Notice how the markdown, code, and outputs (text, HTML, and JSON) are all preserved and styled.
 
 {{< notebook
-    src="hugoblox-onboarding.ipynb"
-    title="Launch Readiness Analysis"
-    show_metadata=true
-    line_numbers=true
-    dense=false
-    download_label="Download notebook"
-    show_outputs=true
->}}
+src="hugoblox-onboarding.ipynb"
+title="Launch Readiness Analysis"
+show_metadata=true
+line_numbers=true
+dense=false
+download_label="Download notebook"
+show_outputs=true
+
+> }}
 
 ## How to add a notebook
 
 1. **Save your notebook.** Place your `.ipynb` file in `assets/notebooks/` (for global access) or inside a page bundle (like `content/blog/my-post/analysis.ipynb`).
-2. **Add the shortcode.** In any Markdown page, simply use:
+1. **Add the shortcode.** In any Markdown page, simply use:
    `{{</* notebook src="analysis.ipynb" */>}}`
-3. **Customize.** You can hide code cells for non-technical audiences (`show_code=false`) or just show the output (`show_outputs=true`).
+1. **Customize.** You can hide code cells for non-technical audiences (`show_code=false`) or just show the output (`show_outputs=true`).
 
 > [!IMPORTANT]
 > Hugo Blox respects your privacy. Notebook rendering happens statically at build time—no third-party services required.

@@ -9,20 +9,20 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
 cover:
-  image: "https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2560"
+  image: https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2560
   position:
     x: 50
     y: 40
   overlay:
     enabled: true
-    type: "gradient"
+    type: gradient
     opacity: 0.4
-    gradient: "bottom"
+    gradient: bottom
   fade:
     enabled: true
-    height: "80px"
+    height: 80px
   icon:
-    name: "✨"
+    name: ✨
 
 authors:
   - me
@@ -44,10 +44,8 @@ Welcome 👋
 ## Overview
 
 1. The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
-
-[//]: # '[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/HugoBlox/kit/main/templates/academic-cv/preview.png)](https://hugoblox.com)'
+1. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
+1. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
 
 ### Get Started
 
@@ -57,7 +55,7 @@ Welcome 👋
 - 👉 [**Create a new site**](https://hugoblox.com/templates/)
 - 📚 [**Personalize your site**](https://docs.hugoblox.com/)
 - 💬 [Chat with the **Hugo Blox community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@MakeOwnable](https://x.com/MakeOwnable)  #MadeWithHugoBlox
+- 🐦 Twitter: [@MakeOwnable](https://x.com/MakeOwnable) #MadeWithHugoBlox
 - 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/kit/issues)
 - ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/kit/releases)
 
@@ -82,7 +80,7 @@ As a token of appreciation for sponsoring, you can **unlock [these](https://hugo
 
 ## Features
 
-> [!NOTE]+ Enhanced Markdown Support  
+> [!NOTE]+ Enhanced Markdown Support
 > Hugo Blox now supports GitHub and Obsidian-style callouts! Use standard Markdown alert syntax like `> [!NOTE]` for better portability.
 
 - **Page builder** - Create _anything_ with no-code [**blocks**](https://hugoblox.com/blocks/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
@@ -101,7 +99,7 @@ As a token of appreciation for sponsoring, you can **unlock [these](https://hugo
 - **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
 - **One-Click Deployment** - No servers. No databases. Only files.
 
-> [!WARNING]+ Version Requirements  
+> [!WARNING]+ Version Requirements
 > The new Markdown alert syntax requires Hugo v0.132.0 or later. Make sure you're using a compatible version!
 
 ## Themes

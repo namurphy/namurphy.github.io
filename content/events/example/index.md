@@ -1,5 +1,5 @@
 ---
-title: "Create Beautiful Presentations with Markdown"
+title: Create Beautiful Presentations with Markdown
 date: '2017-01-01T00:00:00Z'
 
 event_name: HugoBlox Showcase
@@ -34,7 +34,7 @@ tags:
 featured: true
 
 image:
-  caption: 'Presentation freedom with Markdown'
+  caption: Presentation freedom with Markdown
   focal_point: Right
 
 links:
@@ -49,7 +49,7 @@ links:
     url: https://docs.hugoblox.com/guides/slides/
 
 # Link to your Markdown slides
-slides: "example"
+slides: example
 
 projects: []
 ---
@@ -62,6 +62,7 @@ projects: []
 ### The Problem with Traditional Slides
 
 **PowerPoint & Keynote:**
+
 - 💸 Expensive licenses or subscriptions
 - 🔒 Proprietary file formats (`.pptx`, `.key`)
 - 💻 Platform-specific (Windows/Mac only)
@@ -70,6 +71,7 @@ projects: []
 - 😰 Lost formatting when sharing
 
 **Google Slides:**
+
 - ☁️ Requires internet connection
 - 🔐 Data stored on Google's servers
 - 📱 Limited offline editing
@@ -81,7 +83,7 @@ projects: []
 > [!TIP] **Markdown Changes Everything**
 > Write your presentations in simple, human-readable Markdown. Edit anywhere, present anywhere, own forever.
 
----
+______________________________________________________________________
 
 ## ✨ What You Get
 
@@ -115,6 +117,7 @@ That's it! No complex UI, no formatting headaches.
 
 > [!IMPORTANT] **Zero Lock-In**
 > Your slides are just Markdown files. Edit them in:
+>
 > - **HugoBlox Studio** — Visual editing with live preview
 > - **VS Code** — With Markdown extensions
 > - **Obsidian** — Note-taking app that speaks Markdown
@@ -126,6 +129,7 @@ That's it! No complex UI, no formatting headaches.
 ### 🎯 Advanced Features
 
 **Dual Column Layouts:**
+
 ```markdown
 <div style="display: flex; gap: 2rem;">
   <div style="flex: 1;">Column 1</div>
@@ -134,11 +138,13 @@ That's it! No complex UI, no formatting headaches.
 ```
 
 **Fragment Animations:**
+
 ```markdown
 {{</* fragment */>}}Appear on click!{{</* /fragment */>}}
 ```
 
 **Speaker Notes:**
+
 ```markdown
 Note: Your private notes here
 (visible in presenter view only)
@@ -147,7 +153,7 @@ Note: Your private notes here
 **Vertical Slide Stacks:**
 Navigate down for sub-topics!
 
----
+______________________________________________________________________
 
 ## 🚀 Getting Started is Easy
 
@@ -195,6 +201,7 @@ slides: "my-talk"  # References the slides folder name
 ### Step 3: Present!
 
 Your slides are automatically:
+
 - ✅ Embedded on the event page
 - ✅ Available in fullscreen mode (click {{< icon name="arrows-expand" >}} button)
 - ✅ Accessible at a direct URL
@@ -202,7 +209,7 @@ Your slides are automatically:
 
 {{< button url="https://docs.hugoblox.com/guides/slides/" text="Read Full Documentation" icon="book-open" style="outline" size="md" align="center" />}}
 
----
+______________________________________________________________________
 
 ## 💎 Why Academics & Researchers Love It
 
@@ -227,52 +234,53 @@ Your slides are automatically:
 - **Interactive Examples** — Embed interactive visualizations
 - **Accessible** — Keyboard navigation, screen reader friendly
 
----
+______________________________________________________________________
 
 ## 🎬 See It In Action
 
 > [!NOTE]
 > **Try it now!** The slides embedded above demonstrate all these features:
+>
 > - Code highlighting with Python
-> - Mathematical equations with LaTeX  
+> - Mathematical equations with LaTeX
 > - Dual column layouts (slides 4-6)
 > - Fragment animations
 > - Multiple themes
-> 
+>
 > Click the {{< icon name="arrows-expand" >}} **fullscreen button** (top right) to experience presentation mode!
 
 ### Live Features to Try
 
 1. **Navigate**: Use arrow keys (→ ←) or click controls
-2. **Fullscreen**: Click the expand button to go fullscreen
-3. **Speaker Notes**: Press `S` to open presenter view (try it!)
-4. **Overview**: Press `ESC` to see all slides at once
-5. **Search**: Press `/` to search slide content
-6. **Zoom**: `Alt+Click` to zoom into details
+1. **Fullscreen**: Click the expand button to go fullscreen
+1. **Speaker Notes**: Press `S` to open presenter view (try it!)
+1. **Overview**: Press `ESC` to see all slides at once
+1. **Search**: Press `/` to search slide content
+1. **Zoom**: `Alt+Click` to zoom into details
 
 {{< button url="/slides/example/" text="Open Slides in New Tab" icon="external-link" style="ghost" new_tab="true" />}}
 
----
+______________________________________________________________________
 
 ## 🆚 Comparison
 
-| Feature | PowerPoint | Google Slides | **Hugo Blox** |
-|---------|-----------|---------------|---------------|
-| **Cost** | $159.99/year | Free* | **Free Forever** |
-| **Format** | Binary (`.pptx`) | Proprietary | **Plain Markdown** |
-| **Version Control** | ❌ Difficult | ❌ Limited | **✅ Git Native** |
-| **Offline Editing** | ✅ Yes | ⚠️ Limited | **✅ Fully Offline** |
-| **Platform Lock-in** | ⚠️ Microsoft | ⚠️ Google | **✅ None** |
-| **Code Highlighting** | ⚠️ Basic | ⚠️ Limited | **✅ 50+ Languages** |
-| **Math Equations** | ⚠️ Clunky | ⚠️ Basic | **✅ Full LaTeX** |
-| **Portability** | ❌ Poor | ❌ Requires Google | **✅ Works Anywhere** |
-| **Future-Proof** | ❌ Format changes | ⚠️ API changes | **✅ Plain Text Forever** |
-| **Open Source** | ❌ No | ❌ No | **✅ Yes** |
+| Feature               | PowerPoint        | Google Slides      | **Hugo Blox**             |
+| --------------------- | ----------------- | ------------------ | ------------------------- |
+| **Cost**              | \$159.99/year     | Free\*             | **Free Forever**          |
+| **Format**            | Binary (`.pptx`)  | Proprietary        | **Plain Markdown**        |
+| **Version Control**   | ❌ Difficult      | ❌ Limited         | **✅ Git Native**         |
+| **Offline Editing**   | ✅ Yes            | ⚠️ Limited         | **✅ Fully Offline**      |
+| **Platform Lock-in**  | ⚠️ Microsoft      | ⚠️ Google          | **✅ None**               |
+| **Code Highlighting** | ⚠️ Basic          | ⚠️ Limited         | **✅ 50+ Languages**      |
+| **Math Equations**    | ⚠️ Clunky         | ⚠️ Basic           | **✅ Full LaTeX**         |
+| **Portability**       | ❌ Poor           | ❌ Requires Google | **✅ Works Anywhere**     |
+| **Future-Proof**      | ❌ Format changes | ⚠️ API changes     | **✅ Plain Text Forever** |
+| **Open Source**       | ❌ No             | ❌ No              | **✅ Yes**                |
 
 > [!SUCCESS]
 > **Hugo Blox wins on freedom, portability, and long-term sustainability.**
 
----
+______________________________________________________________________
 
 ## 🛠️ Advanced Capabilities
 
@@ -286,7 +294,7 @@ class Transformer(nn.Module):
     def __init__(self, d_model=512, nhead=8):
         super().__init__()
         self.attention = nn.MultiheadAttention(d_model, nhead)
-    
+
     def forward(self, x):
         return self.attention(x, x, x)[0]
 ```
@@ -318,12 +326,13 @@ Perfect for before/after comparisons, code + explanation, or image + text:
 
 See slides 4-6 in the embedded presentation above for live examples!
 
----
+______________________________________________________________________
 
 ## 🎓 For Educators: Teach the Future
 
 > [!TIP] **Empower Your Students**
 > Teaching with Hugo Blox means teaching modern, transferable skills:
+>
 > - Markdown (used everywhere: GitHub, Notion, Obsidian)
 > - Version control (essential for careers)
 > - Web technologies (HTML, CSS)
@@ -344,12 +353,13 @@ courses/
 
 Each lecture gets its own slide deck, all version controlled, all editable by students as PRs.
 
----
+______________________________________________________________________
 
 ## 🌍 Join the Community
 
 > [!IMPORTANT] **Built by Academics, for Academics**
 > Hugo Blox is used by researchers at:
+>
 > - 🎓 Stanford, MIT, Harvard, Oxford, Cambridge
 > - 🏢 Google Research, Meta AI, OpenAI
 > - 🔬 CERN, NASA, NIH
@@ -364,7 +374,7 @@ Each lecture gets its own slide deck, all version controlled, all editable by st
 - 🐛 [GitHub Issues](https://github.com/HugoBlox/kit/issues)
 - 🐦 [Follow @MakeOwnable](https://twitter.com/MakeOwnable)
 
----
+______________________________________________________________________
 
 ## 🚀 Ready to Create?
 
@@ -377,7 +387,7 @@ Each lecture gets its own slide deck, all version controlled, all editable by st
 
 {{< button url="https://docs.hugoblox.com/guides/studio/" text="Try HugoBlox Studio" icon="paint-brush" style="secondary" size="lg" align="center" rounded="lg" />}}
 
----
+______________________________________________________________________
 
 ## 📖 Additional Resources
 
@@ -401,15 +411,16 @@ Each lecture gets its own slide deck, all version controlled, all editable by st
 ### Tips & Tricks
 
 > [!TIP] **Pro Tips for Better Presentations**
+>
 > 1. Keep slides simple — one idea per slide
-> 2. Use dual columns for comparisons
-> 3. Add speaker notes with `Note:` prefix
-> 4. Test presenter view before your talk
-> 5. Use fragments to control pacing
-> 6. Version control your slides with Git
-> 7. Share source files for reproducibility
+> 1. Use dual columns for comparisons
+> 1. Add speaker notes with `Note:` prefix
+> 1. Test presenter view before your talk
+> 1. Use fragments to control pacing
+> 1. Version control your slides with Git
+> 1. Share source files for reproducibility
 
----
+______________________________________________________________________
 
 **Have questions?** Check out the [FAQ](https://docs.hugoblox.com/guides/slides/) or [ask the community](https://discord.gg/z8wNYzb)!
 

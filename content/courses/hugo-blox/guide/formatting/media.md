@@ -18,23 +18,31 @@ Teach your course by sharing videos with your students. Choose from one of the f
 
 **Youtube**:
 
-    {{</* youtube w7Ft2ymGmfc */>}}
+```
+{{</* youtube w7Ft2ymGmfc */>}}
+```
 
 **Bilibili**:
 
-    {{</* bilibili id="BV1WV4y1r7DF" */>}}
+```
+{{</* bilibili id="BV1WV4y1r7DF" */>}}
+```
 
 **Video file**
 
 Videos may be added to a page by either placing them in your `assets/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then embedding them with the _video_ shortcode:
 
-    {{</* video src="my_video.mp4" controls="yes" */>}}
+```
+{{</* video src="my_video.mp4" controls="yes" */>}}
+```
 
 ## Podcast
 
 You can add a podcast or music to a page by placing the MP3 file in the page's folder or the media library folder and then embedding the audio on your page with the _audio_ shortcode:
 
-    {{</* audio src="ambient-piano.mp3" */>}}
+```
+{{</* audio src="ambient-piano.mp3" */>}}
+```
 
 Try it out:
 
@@ -76,7 +84,7 @@ $$
 renders as
 
 {{< math >}}
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+\$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$\$
 {{< /math >}}
 
 Example **inline math** `{{</* math */>}}$\nabla F(\mathbf{x}_{n})${{</* /math */>}}` renders as {{< math >}}$\nabla F(\mathbf{x}_{n})${{< /math >}}.
@@ -105,11 +113,13 @@ $$
 
 HugoBlox Kit utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
 
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
+````
+```python
+import pandas as pd
+data = pd.read_csv("data.csv")
+data.head()
+```
+````
 
 renders as
 

@@ -7,7 +7,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '6rem'
+  spacing: 6rem
 
 sections:
   - block: resume-biography-3
@@ -39,7 +39,7 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 📚 My Research
       subtitle: ''
       text: |-
         Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
@@ -126,6 +126,6 @@ sections:
     design:
       card:
         # Card background color (CSS class)
-        css_class: 'bg-primary-300 dark:bg-primary-700'
+        css_class: bg-primary-300 dark:bg-primary-700
         css_style: ''
 ---

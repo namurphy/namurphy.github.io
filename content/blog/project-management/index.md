@@ -10,20 +10,20 @@ tags:
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 cover:
-  image: "https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2560"
+  image: https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2560
   position:
     x: 50
     y: 40
   overlay:
     enabled: true
-    type: "gradient"
+    type: gradient
     opacity: 0.4
-    gradient: "bottom"
+    gradient: bottom
   fade:
     enabled: true
-    height: "80px"
+    height: 80px
   icon:
-    name: "✨"
+    name: ✨
 ---
 
 Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
@@ -66,16 +66,18 @@ Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
 
 An example **Gantt diagram**:
 
-    ```mermaid
-    gantt
-    section Section
-    Completed :done,    des1, 2014-01-06,2014-01-08
-    Active        :active,  des2, 2014-01-07, 3d
-    Parallel 1   :         des3, after des1, 1d
-    Parallel 2   :         des4, after des1, 1d
-    Parallel 3   :         des5, after des3, 1d
-    Parallel 4   :         des6, after des4, 1d
-    ```
+````
+```mermaid
+gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+```
+````
 
 renders as
 

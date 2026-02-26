@@ -285,7 +285,7 @@ hugoblox:
     # Note: Even with Premium, you can keep this false to support open source!
     # Get Premium: https://hugoblox.com/premium
     hide_attribution: false
-    
+
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""

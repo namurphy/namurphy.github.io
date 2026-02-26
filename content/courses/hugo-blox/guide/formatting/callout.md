@@ -18,7 +18,7 @@ Hugo Blox supports all 15+ callout types from [Obsidian's documentation](https:/
 **Information & Notes:**
 
 ```markdown
-> [!NOTE]  
+> [!NOTE]
 > This is a note callout with important information that users should know.
 ```
 
@@ -152,7 +152,7 @@ You can customize the title of any callout:
 > This warning has a custom title instead of just "Warning".
 ```
 
-> [!WARNING]+ Custom Warning Title  
+> [!WARNING]+ Custom Warning Title
 > This warning has a custom title instead of just "Warning".
 
 ### Legacy Syntax (Deprecated)
@@ -210,7 +210,7 @@ This approach matches [Obsidian's CSS customization system](https://help.obsidia
 ### Benefits of the New Syntax
 
 - **Portable**: Works with GitHub, Obsidian, and other Markdown editors
-- **Standard**: Uses widely-adopted Markdown callout syntax  
+- **Standard**: Uses widely-adopted Markdown callout syntax
 - **Clean**: No Hugo-specific shortcodes needed
 - **Future-proof**: Supported by the latest Hugo versions (0.132.0+)
 - **Customizable**: Semantic CSS classes and data attributes for easy styling

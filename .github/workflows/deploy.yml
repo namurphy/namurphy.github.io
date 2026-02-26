@@ -43,17 +43,17 @@ jobs:
         fi
         sudo mv /tmp/yq /usr/local/bin/yq
         sudo chmod +x /usr/local/bin/yq
-        
+
         # Read deploy.host from hugoblox.yaml, default to github-pages
         HOST=$(yq '.deploy.host // ""' hugoblox.yaml 2>/dev/null | grep -v '^null$' || true)
         HOST=${HOST:-github-pages}
-        
+
         # Validate known hosts
         if [[ ! "$HOST" =~ ^(github-pages|netlify|vercel|cloudflare|none)$ ]]; then
           echo "::warning::Unknown deploy host '$HOST', defaulting to github-pages"
           HOST="github-pages"
         fi
-        
+
         echo "host=$HOST" >> $GITHUB_OUTPUT
         echo "Deployment target: $HOST"
 

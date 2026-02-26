@@ -23,7 +23,7 @@
   <a href="https://github.com/HugoBlox/hugo-theme-academic-cv"><img src="https://img.shields.io/github/stars/HugoBlox/hugo-theme-academic-cv?label=Star%20Academic%20CV&style=social" alt="GitHub Stars"></a>
 </p>
 
----
+______________________________________________________________________
 
 ## Why This Template?
 
@@ -36,7 +36,7 @@ Most CVs are static PDFs that get lost in the pile. This is an **intelligent por
 
 <p align="center">
   <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme">
-    <img src="https://img.shields.io/badge/⚡️%20Get%20Your%20CV%20in%2060s-ff4655?style=for-the-badge" 
+    <img src="https://img.shields.io/badge/⚡️%20Get%20Your%20CV%20in%2060s-ff4655?style=for-the-badge"
     alt="Deploy this template" width="400">
   </a>
 </p>
@@ -47,7 +47,7 @@ Most CVs are static PDFs that get lost in the pile. This is an **intelligent por
 > "My citations went up 3x after switching to this template. The citation auto-sync feature is a lifesaver."
 > — **Dr. Zhang**, AI Research Scientist, Meta
 
----
+______________________________________________________________________
 
 ## Who This Is For
 
@@ -55,19 +55,19 @@ Most CVs are static PDFs that get lost in the pile. This is an **intelligent por
 - Researchers who want a living, citable portfolio
 - Faculty/PIs showcasing publications, talks, and group news
 
----
+______________________________________________________________________
 
 ## Features
 
-| Feature | Benefit |
-| :--- | :--- |
-| **Markdown, Jupyter, RStudio** | Write in the tools you already use. |
-| **Auto-Update Citations** | Drop in a BibTeX file; formatted lists generated automatically. |
-| **Visual Editor** | Drag-and-drop blocks to build pages in minutes. |
-| **Global CDN** | Blazing fast load times (100/100 Lighthouse scores). |
-| **Privacy First** | You own your data. Host for free on GitHub Pages. |
+| Feature                        | Benefit                                                         |
+| :----------------------------- | :-------------------------------------------------------------- |
+| **Markdown, Jupyter, RStudio** | Write in the tools you already use.                             |
+| **Auto-Update Citations**      | Drop in a BibTeX file; formatted lists generated automatically. |
+| **Visual Editor**              | Drag-and-drop blocks to build pages in minutes.                 |
+| **Global CDN**                 | Blazing fast load times (100/100 Lighthouse scores).            |
+| **Privacy First**              | You own your data. Host for free on GitHub Pages.               |
 
----
+______________________________________________________________________
 
 ## Notebook → Posts and Slides
 
@@ -77,25 +77,25 @@ Most CVs are static PDFs that get lost in the pile. This is an **intelligent por
 
 Learn more: docs on [Notebooks](https://docs.hugoblox.com/reference/markdown/#-notebooks) and [Slides](https://docs.hugoblox.com/guides/slides/).
 
----
+______________________________________________________________________
 
-## Why Go Pro (from $8/m)
+## Why Go Pro (from \$8/m)
 
 - Enhanced HugoBlox Studio visual editor — save 10–20 hours setting up and polishing
 - Premium CV & Resumé designs — make an unforgettable first impression
 - Pro blocks, remove attribution, and priority support
 
----
+______________________________________________________________________
 
 ## Free vs Pro
 
-| Feature | Academic CV (Free) | Academic CV Pro & Resumé Pro |
-| --- | --- | --- |
-| Design | Professional & clean | Premium designs |
-| Layouts | Standard sections | Advanced timelines & layouts |
-| Courses/Lectures | Basic | Fully-Featured |
-| First Impression | Strong | Unforgettable |
-| Discord Support | Community | Priority |
+| Feature          | Academic CV (Free)   | Academic CV Pro & Resumé Pro |
+| ---------------- | -------------------- | ---------------------------- |
+| Design           | Professional & clean | Premium designs              |
+| Layouts          | Standard sections    | Advanced timelines & layouts |
+| Courses/Lectures | Basic                | Fully-Featured               |
+| First Impression | Strong               | Unforgettable                |
+| Discord Support  | Community            | Priority                     |
 
 <p align="center">
   <a href="https://hugoblox.com/pricing?utm_source=github&utm_medium=readme"><b>💎 Upgrade to Pro</b></a><br/>
@@ -104,28 +104,31 @@ Learn more: docs on [Notebooks](https://docs.hugoblox.com/reference/markdown/#-n
   <a href="https://hugoblox.com/templates/resume-pro/start?utm_source=github&utm_medium=readme">📄 Deploy Resumé Pro</a>
 </p>
 
----
+______________________________________________________________________
 
 ## Get Started
 
 ### Option 1: No-Code (Fastest)
+
 Launch a fully hosted site in your browser. No software to install.
 
 👉 [**Launch in Browser (Free)**](https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme)
 
 ### Option 2: Studio (Visual Editor)
-1) Install [HugoBlox Studio](https://marketplace.visualstudio.com/items?itemName=ownable.ownable) for VS Code  
-2) Open this project and edit visually
+
+1. Install [HugoBlox Studio](https://marketplace.visualstudio.com/items?itemName=ownable.ownable) for VS Code
+1. Open this project and edit visually
 
 ### Option 3: CLI (Developers)
-1) Install [Hugo](https://docs.hugoblox.com/start/cli/)
-2) Create your site with the CLI:
+
+1. Install [Hugo](https://docs.hugoblox.com/start/cli/)
+1. Create your site with the CLI:
 
 ```bash
 npx hugoblox create site --template academic-cv
 ```
 
----
+______________________________________________________________________
 
 ## FAQ
 
@@ -134,7 +137,7 @@ npx hugoblox create site --template academic-cv
 - Can I export/migrate later? Yes — your site is just files.
 - Can I cancel Pro anytime? Yes.
 
----
+______________________________________________________________________
 
 ## Community & Support
 
@@ -143,9 +146,10 @@ npx hugoblox create site --template academic-cv
 - 🐦 [**Follow on X**](https://x.com/MakeOwnable)
 - ⭐ [**Star on GitHub**](https://github.com/HugoBlox/kit)
 
----
+______________________________________________________________________
 
 MIT © 2016-Present [George Cushen](https://georgecushen.com)
 
 <!--START_SECTION:news-->
+
 <!--END_SECTION:news-->
