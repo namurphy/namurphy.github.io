@@ -1,6 +1,6 @@
 baseURL = "https://namurphy.github.io"
 languageCode = "en-us"
-title = "Nick Murphy's homepage"
+title = "Nick Murphy: plasma astrophysicist, research software engineer, and harbinger of metadata standardization"
 theme = "hugo-profile"
 Paginate = 3
 enableRobotsTXT = true
@@ -91,7 +91,7 @@ url = "https://www.linkedin.com/in/nick-murphy-92908b12b/"
   title = "About Me"
   image = "/images/me.png"
   content = """
-I am an astrophysicist, research software engineer, and harbinger of metadata standardization. 
+I am an astrophysicist, research software engineer, and harbinger of metadata standardization.
 
 My work focuses on the development of PlasmaPy: an open source Python package for plasma research and education."""
 
@@ -184,7 +184,7 @@ For my thesis, I performed simulations of magnetic reconnection in a laboratory 
 #- Face mask detection using a single convolutional neural network.
 
 #Extracurricular Activities
-#  - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+#  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
 #  - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique."""
 
       [params.education.items.school]

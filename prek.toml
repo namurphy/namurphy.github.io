@@ -1,5 +1,6 @@
 [[repos]]
 repo = "https://github.com/pre-commit/pre-commit-hooks"
+rev = "v6.0.0"
 hooks = [
     { id = "trailing-whitespace" },
     { id = "end-of-file-fixer"},
@@ -9,13 +10,14 @@ hooks = [
     { id = "check-yaml"},
     { id = "check-xml"},
     { id = "mixed-line-ending"},
-    { id = "check-symlinks"},                
+    { id = "check-symlinks"},
     { id = "check-merge-conflict"},
     { id = "detect-private-key"},
 ]
 
 [[repos]]
 repo = "https://github.com/hukkin/mdformat"
+rev = "1.0.0"
 hooks = [
     { id = "mdformat", additional_dependencies = ["mdformat-myst"] }
 ]
